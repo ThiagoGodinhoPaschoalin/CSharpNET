@@ -23,8 +23,9 @@ namespace MyConsole
 
             //Example_001(model);
             //Example_002(model, _cts.Token);
-            Example_003(model, _cts.Token);
-
+            //Example_003(model, _cts.Token);
+            Example_004(model, _cts.Token);
+            
 
             Console.WriteLine("\n\n The Main is finished...");
             Console.ReadKey();
@@ -75,6 +76,28 @@ namespace MyConsole
             stopWatch.Stop();
 
             Console.WriteLine($"\n\n\nAll Tasks is finished! Elapsed Time: {stopWatch.Elapsed}\n\n");
+        }
+
+        static void Example_004(FindYourGuid findYourGuid, CancellationToken ct)
+        {
+            List<Task> tasks = new List<Task>();
+
+            for (int i = 0; i < 10; i++)
+            {
+                var newTask = Task.Factory.StartNew(() =>
+                {
+                    string result = service.ToDo(model, ct);
+                    Console.WriteLine(result);
+                }, ct);
+
+                tasks.Add(newTask);
+            }
+
+            //Iniciar todas as tarefas e seguir a diante!
+            Task.WhenAll(tasks.ToArray());
+
+            //cancelar após 9 segundos;
+            _cts.CancelAfter(9000);
         }
     }
 }
