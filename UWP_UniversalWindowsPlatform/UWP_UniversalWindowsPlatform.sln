@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTemplateStudio", "Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsTemplateStudio.Core", "WindowsTemplateStudio.Core\WindowsTemplateStudio.Core.csproj", "{7F8C09C6-CE29-4826-8872-ACC90C1D04F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseBingImage_AzureExample", "UseBingImage_AzureExample\UseBingImage_AzureExample.csproj", "{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,32 @@ Global
 		{7F8C09C6-CE29-4826-8872-ACC90C1D04F7}.Release|x64.Build.0 = Release|Any CPU
 		{7F8C09C6-CE29-4826-8872-ACC90C1D04F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{7F8C09C6-CE29-4826-8872-ACC90C1D04F7}.Release|x86.Build.0 = Release|Any CPU
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM.Build.0 = Debug|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x64.ActiveCfg = Debug|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x64.Build.0 = Debug|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x64.Deploy.0 = Debug|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x86.ActiveCfg = Debug|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x86.Build.0 = Debug|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Debug|x86.Deploy.0 = Debug|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|Any CPU.ActiveCfg = Release|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM.ActiveCfg = Release|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM.Build.0 = Release|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM.Deploy.0 = Release|ARM
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM64.Build.0 = Release|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|ARM64.Deploy.0 = Release|ARM64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x64.ActiveCfg = Release|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x64.Build.0 = Release|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x64.Deploy.0 = Release|x64
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x86.ActiveCfg = Release|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x86.Build.0 = Release|x86
+		{E895D1AF-9F2C-45CF-B372-B0BAC21039B8}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
