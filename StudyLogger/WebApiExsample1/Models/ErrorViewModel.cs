@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApiExsample1.Models
+namespace WebApiMVC_Example1.Models
 {
     public class ErrorViewModel
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiExsample1", "WebApiExsample1\WebApiExsample1.csproj", "{0B154289-D746-4F23-8C32-C02AE76ECBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiMVC_Example1", "WebApiExsample1\WebApiMVC_Example1.csproj", "{0B154289-D746-4F23-8C32-C02AE76ECBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
