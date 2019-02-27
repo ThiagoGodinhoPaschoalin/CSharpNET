@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UseBingImage_AzureExample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UseBingImage_AzureExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image x:Name="foundObjectImage" HorizontalAlignment="Center" Height="410" 
+            Margin="0,90,0,0" VerticalAlignment="Top" Width="660" NineGrid="0,0,0,0"/>
+        <TextBox x:Name="searchTermsTextBox" HorizontalAlignment="Center" 
+            Margin="0,706,0,0" Text="" VerticalAlignment="Top" 
+            PlaceholderText="Type some search terms" KeyDown="OnKeyDownHandler" Width="473" Height="126" FontSize="20"/>
+    </Grid>
+</Page>
