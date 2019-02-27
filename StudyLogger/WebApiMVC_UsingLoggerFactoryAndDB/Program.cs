@@ -19,6 +19,11 @@ namespace WebApiMVC_UsingLoggerFactoryAndDB
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureLogging(logging =>
+                {
+                    //Now you can use scope "using (_logger.BeginScope("start"))"
+                    logging.AddConsole(options => options.IncludeScopes = true);
+                })
                 .UseStartup<Startup>();
     }
 }

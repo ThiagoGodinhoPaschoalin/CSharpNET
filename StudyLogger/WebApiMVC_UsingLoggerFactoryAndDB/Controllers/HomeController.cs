@@ -1,22 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebApiMVC_UsingLoggerFactoryAndDB.Models;
+using WebApiMVC_UsingLoggerFactoryAndDB.Repository;
 
 namespace WebApiMVC_UsingLoggerFactoryAndDB.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly LogEventRepository _logger;
+
+        public HomeController(LogEventRepository logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
+            _logger.Log(Microsoft.Extensions.Logging.LogLevel.Critical, Models.Enum.LogType.OpenHomeIndex, "Entrando na tela principal!");
             return View();
         }
 
         public IActionResult Privacy()
         {
+            _logger.Log(Microsoft.Extensions.Logging.LogLevel.Critical, Models.Enum.LogType.OpenHomePrivacy, "Entrando na tela de privacidade!");
             return View();
         }
 
