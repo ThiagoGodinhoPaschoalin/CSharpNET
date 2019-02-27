@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiMVC_Example1", "WebApiExsample1\WebApiMVC_Example1.csproj", "{0B154289-D746-4F23-8C32-C02AE76ECBDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiMVC_UsingLoggerFactoryAndDB", "WebApiMVC_UsingLoggerFactoryAndDB\WebApiMVC_UsingLoggerFactoryAndDB.csproj", "{ACACB993-7CE2-4467-A365-C5B5E9A08C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0B154289-D746-4F23-8C32-C02AE76ECBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B154289-D746-4F23-8C32-C02AE76ECBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B154289-D746-4F23-8C32-C02AE76ECBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACACB993-7CE2-4467-A365-C5B5E9A08C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACACB993-7CE2-4467-A365-C5B5E9A08C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACACB993-7CE2-4467-A365-C5B5E9A08C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACACB993-7CE2-4467-A365-C5B5E9A08C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
